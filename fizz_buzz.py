@@ -5,8 +5,7 @@ for num in l:
         print(str(num) + ' fizz')
     elif num % 5 == 0:
         print(str(num) + 'buzz')
-    elif num % 5 == 0 and num % 3 == 0:
-        print(str(num) + 'fizz buzz')
-
+    elif num % 5 == 0 and num % 3 == 0: 
+        print(str(num) + 'fizzbuzz')
     else:
         print(str(num))

@@ -2,16 +2,13 @@ l=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29
 
 for num in l
   if num % 3 == 0
-        puts(num.to_s + ' fizz')
-  end
-  if num % 5 == 0
-      e  puts(num.to_s + 'buzz')
-  end
-  if num % 5 == 0 and num % 3==0
-        puts(num.to_s + 'fizzbuzz')
-  end
+        puts(num.to_s + ' fizz')  
+  elsif num % 5 == 0
+        puts(num.to_s + 'buzz')
+  elsif num % 5 == 0 && num % 3==0
+        puts(num.to_s + 'fizzbuzz') 
   else
-    puts(num.to_s)
-  
+	puts(num.to_s)
   end
+  
 end

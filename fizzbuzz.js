@@ -1,12 +1,13 @@
 for (let i = 1; i <= 100; i++) {
   if (i % 5 == 0 && i % 3 == 0) {
-    console.log(i + 'fizzBuzz');
+    state = i + 'fizzBuzz';
   }else if (i % 3 == 0) {
-    console.log(i + 'fizz');
+    state = i + 'fizz';
   }else if (i % 5 == 0) {
-    console.log(i + 'buzz');
+    state = i + 'buzz';
   }else {
-    console.log(i);
-
+    state = i;
   }
+
+  console.log(state);
 };

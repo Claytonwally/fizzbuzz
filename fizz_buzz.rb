@@ -8,6 +8,6 @@ for num in l
   elsif num % 5 == 0
         puts((num.to_s) + 'buzz')
   else
-	puts(num.to_s)
+	   puts(num.to_s)
   end
 end
